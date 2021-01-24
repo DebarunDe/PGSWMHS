@@ -2,7 +2,7 @@
     "name": "wmhspgs",
     "label": "WMHS: white matter segmentation application using pgs method",
     "description": "Creates a mask of segmented white matter hyperintensities from a co-registered T1 and FLAIR image",
-    "version": "0.1.0_0.5.2",
+    "version": "0.1.0_0.5.3",
     "inputs": {
         "api_key": {
             "base": "api-key"
@@ -32,11 +32,11 @@
     "cite": "",
     "license": "BSD-3-Clause",
     "source": "",
-    "url": "",
+    "url": "https://github.com/DebarunDe/PGSWMHS.git",
     "custom": {
         "gear-builder": {
             "category": "analysis",
-            "image": "debarunde/segmentation:0.4.6"
+            "image": "debarunde/segmentation:0.4.7"
         },
         "flywheel":{"suite": "BrainScienceCenter"}
     }
