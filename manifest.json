@@ -1,8 +1,8 @@
 {
     "name": "wmhspgs",
-    "label": "WMHS: white matter segmentation application using pgs method",
+    "label": "WMHS: white matter hyperintensities segmentation application using pgs method",
     "description": "Creates a mask of segmented white matter hyperintensities from a co-registered T1 and FLAIR image",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "inputs": {
         "api_key": {
             "base": "api-key"
@@ -28,7 +28,7 @@
         "FSLOUTPUTTYPE": "NIFTI_GZ"
     },
     "author": "Debarun De",
-    "maintainer": "debarun.de20@gmail.com",
+    "maintainer": "Debarun De",
     "cite": "",
     "license": "BSD-3-Clause",
     "source": "",
@@ -36,7 +36,7 @@
     "custom": {
         "gear-builder": {
             "category": "analysis",
-            "image": "debarunde/segmentation:0.4.7"
+            "image": "debarunde/segmentation:0.4.9"
         },
         "flywheel":{"suite": "BrainScienceCenter"}
     }
